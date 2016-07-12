@@ -1,0 +1,6 @@
+<---------------------------------------------------------------
+
+The Class Router will provide a handy function who take
+$_POST as callback. "express like"
+
+--------------------------------------------------------------->

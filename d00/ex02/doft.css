@@ -1,0 +1,116 @@
+body {background-color:#4F4F4F;}
+#loupe {
+	position:absolute;
+	width:21%;
+	top:8%;
+	left:76%;}
+
+#reload{
+	position:absolute;
+	top:10%;
+	right:1%;
+	width:2%;}
+
+input[type="text"]{
+	width:70%;}
+
+#arrow{width:60%;}
+#main{width:60%;margin-bottom:10;}
+#oeil{border:5px solid red;width:60%;}
+#outil{width:60%;}
+#chat{width:60%;}
+#close {
+	position:absolute;
+	width:2%;
+	bottom:4%;
+	right:1%;
+}
+#brick{width:32%;margin-right:-5px;margin-bottom:-5px;}
+#towel{width:60%;}
+#book{width:60%;}
+#cluster{width:100%;}
+#gras{font-size:190%;}
+#shadowy{text-shadow: 4px 4px 5px #ff0000;}
+
+#head {
+	margin-right:30px;
+	width:40%;}
+
+.head{
+	position:relative;
+	padding:10px;
+	width:80%;
+	min-width:1900px;
+	margin: 20 auto 45px;}
+
+.body{
+	margin:0 auto;
+	min-width:1900px;
+	width:80%;}
+
+.left{
+	padding:1%;
+	text-align:center;
+	position:relative;
+	margin-left:2%;
+	vertical-align:top;
+	width:8%;
+	min-height:40%;
+	height:490px;
+	display:inline-block;
+	margin-right:2%;
+}
+
+.middle{
+	position: relative;
+	padding:10px;
+	text-align:center;
+	width:70%;
+	display:inline-block;
+	margin-right:2%;}
+
+.point1 {
+	position: absolute;	
+	display: block;
+	width: 10%;
+	height: 20%;
+	right: 58%;
+	bottom: 20%;
+}
+
+.point2 {
+	position: absolute;	
+	display: block;
+	width: 20%;
+	height: 30%;
+	right: 3%;
+	bottom: 13%;
+}
+
+.right{
+	padding:1%;
+	text-align:center;
+	height:490px;
+	position:relative;
+	vertical-align:top;
+	width:8%;
+	min-height:40%;
+	display:inline-block;}
+
+.grey{
+	background-color:#8F8F8F;
+	box-shadow: 10px 10px 10px black;
+	border-radius:10px;}
+
+.bottom{
+	padding:5px;
+	font-family:Sans-Serif;
+	position:absolute;
+	top:79%;
+	left:7%;
+	height:10%;
+	width:25%;
+	background-color:#86FD87;
+	box-shadow: 10px 10px 10px black;
+	border-radius:10px;
+	padding-bottom:50px;}

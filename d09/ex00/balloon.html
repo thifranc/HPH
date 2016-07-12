@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Balloon</title>
+    <style>
+      #ball {
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ball" style="background-color: red; width: 200px; height: 200px;"></div>
+
+    <script>
+      var ball = document.getElementById("ball");
+      var color = ['red', 'green', 'blue'];
+
+      ball.addEventListener("click", function( event ) {
+        var currWidth = Number(ball.style.width.replace(/px$/, ''));
+        var currHeight = Number(ball.style.height.replace(/px$/, ''));
+        var bg = ball.style.backgroundColor;
+
+        if (bg == color[0]) {
+          ball.style.backgroundColor = color[1];
+        } else if (bg == color[1]) {
+          ball.style.backgroundColor = color[2];
+        } else if (bg == color[2]) {
+          ball.style.backgroundColor = color[0];
+        }
+        console.log(ball.style);
+        if (currWidth >= 420 || currHeight >= 420) {
+          ball.style.width = "200px";
+          ball.style.height = "200px";
+        } else {
+          ball.style.width = currWidth + 10 + "px";
+          ball.style.height = currHeight + 10 + "px";
+        }
+      }, false);
+
+      ball.addEventListener("mouseout", function (event) {
+        var currWidth = Number(ball.style.width.replace(/px$/, ''));
+        var currHeight = Number(ball.style.height.replace(/px$/, ''));
+        var bg = ball.style.backgroundColor;
+
+        if (bg == color[0]) {
+          ball.style.backgroundColor = color[2];
+        } else if (bg == color[1]) {
+          ball.style.backgroundColor = color[0];
+        } else if (bg == color[2]) {
+          ball.style.backgroundColor = color[1];
+        }
+        if (currWidth <= 200 || currHeight <= 200) {
+          ball.style.width = "200px";
+          ball.style.height = "200px";
+        } else {
+          ball.style.width = currWidth - 5 + "px";
+          ball.style.height = currHeight - 5 + "px";
+        }
+      }, false);
+    </script>
+  </body>
+
+</html>

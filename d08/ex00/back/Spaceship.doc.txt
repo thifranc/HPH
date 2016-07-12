@@ -1,0 +1,24 @@
+<- Spaceship ----------------------------------------------------------------------
+
+The Spaceship class will guide the construction of all kind of Spaceships
+
+Thanks to its type, Spaceship class can force its children to get some features
+
+Here is the list of them :
+Every Spaceship is forced to have those features :
+
+Currently available kind of spaceships : SorrowBoy  //  FatherOfDespair
+
+an 'active' status : true or false
+an 'id' : to identicate every instance of Spaceship individually
+an 'aim' : where the Spaceship is going if it goes forward
+a 'size'----------------------------------------------------------
+a 'pos' : array of its position on the map, so pos[0] = X pos[1] = Y
+a 'basePP' : Number of PP disposable at the beginning of the Give phase
+a 'lives' : Actual count of live point for the Spaceship : when = 0 => Spaceship is destroyed
+a 'shield' : initialized at 0, can be boosted thanks to PP, and protect the 'lives'
+a 'gun' : initializeed at 0, can be boosted thanks to PP, and allow to shoot
+a 'speed' : initializeed at 0, can be boosted thanks to PP, and allow to move
+a 'movable' : which indicates how many forward moves has to be made in order to turn
+
+---------------------------------------------------------------------- Spaceship ->

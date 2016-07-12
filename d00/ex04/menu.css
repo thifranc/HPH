@@ -1,0 +1,16 @@
+body {text-align:center;}
+.basic{
+	display:inline-block;
+	text-align:center;
+	width:25%;
+	vertical-align:top;
+	font-size:5em;}
+#viande{color:red;}
+#pain{color:green;}
+#crudite{color:blue;}
+ul ul {display:none;}
+ul {list-style-type:none}
+li:hover ul {display:block;}
+@media screen and (max-width:960px){
+    .basic {font-size:2em;}
+}

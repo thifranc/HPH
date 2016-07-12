@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calc</title>
+    <style>
+      #ball {
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="x" type="text" value="0"/>
+    <select id="op">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+      <option value="%">%</option>
+    </select>
+    <input id="y" type="text" value="0"/>
+    <input id="submit" type="submit" value="Try me!"/>
+
+    <script>
+    window.setInterval(function () {
+      alert("Please, use me...");
+    }, 30000);
+
+      var submit = document.getElementById("submit");
+
+      function isInt(n) {
+           return n % 1 === 0;
+      }
+
+      submit.addEventListener("click", function( event ) {
+        var x = document.getElementById("x").value;
+        var op = document.getElementById("op").value;
+        var y = document.getElementById("y").value;
+        if (x < 0 || y < 0 || !isInt(x) || !isInt(y)) {
+          alert("Error :(");
+        } else if ((op == "/" || op == "%") && y == 0) {
+          alert("It's over 9000!");
+          console.log("It's over 9000!");
+        } else {
+          var result = eval(x + op + y);
+          console.log(result);
+          alert(result);
+        }
+      }, false);
+    </script>
+  </body>
+
+</html>

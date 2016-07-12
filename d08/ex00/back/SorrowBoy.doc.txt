@@ -1,0 +1,9 @@
+<--------------------------------------------------------
+
+This interface will force to implement 2 functions
+
+the jump function can teleport the ship
+
+the spy function can turn the ship invisible for $duree tour time
+
+-------------------------------------------------------->

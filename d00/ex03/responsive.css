@@ -1,0 +1,26 @@
+table {width:90%;margin:auto;}
+td {width:5%;border:1px solid black;}
+#img1 {width:20%;}
+.num {text-align:left;font-size:1em;}
+.weight {text-align:right;font-size:1em;}
+.name {text-align:center;font-size:3em;}
+.red {color:red;}
+.green {color:green;}
+.blue {color:blue;}
+.purple {color:purple;}
+
+@media screen and (max-width:1400px){
+	.name {font-size: 2em;}
+	.weight {font-size:0.8em;}
+	.num {font-size:0.8em;}
+}
+@media screen and (max-width:1000px){
+	.name {font-size: 1em;}
+	.weight {font-size:0.5em;}
+	.num {font-size:0.5em;}
+}
+@media screen and (max-width:585px){
+	.name {font-size: 0.5em;}
+	.weight {font-size:0.4em;}
+	.num {font-size:0.4em;}
+}

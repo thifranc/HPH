@@ -1,0 +1,28 @@
+<-------------------------------------------------------------------------
+
+Player class offers to manage Armada and Phases of every turn
+
+Every Player has a name, in order to distinguish them
+
+In player class you can get your Armada,
+which is an array of all your Spaceships instances $player->armada
+
+Finally, the Player Class will help you to manage your Armada
+
+You can use Give // Move // Gun to do so.
+Here are the functions prototypes :
+
+$ship refers to the currrently activated ship
+$data refers to the data got from $_SESSION
+$map refers to the map - LOL
+$nemesis refers to the other player, your lifetime Nemesis
+
+$Player->Give($ship, $data)
+
+$Player->Move($ship, $data, $map)
+
+$Player->Gun($ship, $map, $nemesis)
+
+Each function will return 
+
+------------------------------------------------------------------------->
