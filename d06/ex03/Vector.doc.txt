@@ -1,0 +1,44 @@
+<- Vector ----------------------------------------------------------------------
+The Vector class manipulates vectors in a 3D space (right_handed oriented).
+
+The vector has to be defined by a Vertex sent as 'dest' key in an array
+cf : new Vector (array ('dest' => Vertex))
+
+This class is protected from extern modification od value : A Vector will never see its values changed.
+
+But you can also add a 'orig' as 'orig' key Vertex which would be the origin of the Vector calculated.
+
+Values in the Vector class can only be read.
+
+The Vertex class can get length of the Vector with call of magnitude() method.
+Value returned is a float.
+
+The Vertex class can get a normalized vector of the Vector with call of normalize() method.
+Value returned is a Vector.
+
+The Vertex class can get a sum of vector passed and current Vector with call of add(Vector $vector) method.
+Value returned is a Vector.
+
+The Vertex class can get a difference of vector passed and current Vector with call of sub(Vector $vector) method.
+Value returned is a Vector.
+
+The Vertex class can get the opposite current Vector with call of opposite() method.
+Value returned is a Vector.
+
+The Vertex class can get a scalar product of scalar passed and current Vector with call of scalarProduct($scalar) method.
+Value returned is a Vector.
+
+The Vertex class can get a scalar product of vector passed and current Vector with call of dotProduct(Vector $vector) method.
+Value returned is a float.
+
+The Vertex class can get a cosinus of angle formed by vector passed and current Vector with call of cos(Vector $vector) method.
+Value returned is a float.
+
+The Vertex class can get a crossproduct of vector passed and current Vector with call of crossProduct(Vector $vector) method (remember of right_handed 3D).
+Value returned is a vector.
+
+You can display __construct and __destruct calls by puttin Vector::verbose as True
+
+Also a __toString ans a __get function are availables on this Class.
+
+---------------------------------------------------------------------- Vector ->

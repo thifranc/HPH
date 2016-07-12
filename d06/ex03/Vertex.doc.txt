@@ -1,0 +1,13 @@
+<- Vertex ----------------------------------------------------------------------
+The vertex class creates dots in a 3D dimension
+
+Those dots will receive a X, Y and Z coordinates (floating types).
+
+You can also pass a W coordinate, and a Color Class to the dot.
+By default, W will get 1.0 as value
+By default, the Color Class will get 0xFFFFFF (= White color) as value.
+
+Verbose mode (Vertex::$verbose = True) is available on this Class.
+
+Also, magic methods __get and __set are available on this Class.
+---------------------------------------------------------------------- Vertex ->
