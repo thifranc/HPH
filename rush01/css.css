@@ -1,0 +1,46 @@
+body {
+  /*background-color: black;*/
+  /*font-size: 0;*/
+}
+
+#cell-grid {
+  border-spacing: 0px;
+  border-collapse: separate;
+}
+.container {
+	vertical-align: top;
+  display: inline-block;
+}
+#controls-container {
+  display: inline-block;
+}
+#controls-container > div {
+  display: inline-block;
+}
+
+.cell {
+  border: 1px solid grey;
+  spacing: 0px;
+  color: green;
+  height: 10px;
+  width: 10px;
+  font-size: 8px;
+}
+
+.cell-border {
+  color: white;
+  height: 10px;
+  width: 10px;
+}
+
+.colorA {
+	background-color: #49b925;
+}
+
+.colorB {
+	background-color: blue;
+}
+.asteroid {
+	background-color: grey;
+	border-radius: 50%;
+}

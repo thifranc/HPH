@@ -1,0 +1,15 @@
+<---------------------------------------------------------------
+
+The Class Game will initiate a party
+
+To do so, it will create a map, obstacles (represented as 'X')
+two instances of the Player class.
+
+The class game helps you to manage all of the party
+thanks to the use of the Players objects,
+the class game will help communicate to the front
+
+To have a better understanding of the Player class :
+go read the Player.doc.txt
+
+--------------------------------------------------------------->

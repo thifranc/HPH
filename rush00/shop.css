@@ -1,0 +1,48 @@
+body {
+background-color:#B0C4DE;
+}
+	p{
+	font-size:20px;
+	text-align:center;;
+}
+
+	.window{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	.container{
+		font-size: 20px;
+		text-align:center;
+}
+
+	.category_list{
+	font-size: 10px;
+}
+
+	.category{
+	text-align:right;
+	font-size: 15px;
+}
+
+	.login{
+	text-align:right;
+	font-size:10px;
+
+}
+
+	.cart
+	{
+	text-align:center;
+}
+
+	.item_cart
+	{
+	text-align:center;
+}
+	.error
+	{
+	font-color:red;
+	font-size:40px;
+	text-align:center;
+}

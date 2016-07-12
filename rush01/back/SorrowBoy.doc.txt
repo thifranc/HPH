@@ -1,0 +1,8 @@
+<--------------------------------------------------------
+
+Herits from Spaceship class
+
+Sorrow Boy is a little ship tht stings like a bee
+and can do pretty bad stuf to FatherOfDespair
+
+-------------------------------------------------------->
